@@ -153,9 +153,21 @@ header .icons #menu-bars {
 .home .home-slider .slide {
   display: flex;
   align-items: center;
-  flex-wrap: wrap;
+
   gap: 2rem;
   padding-top: 9rem;
+}
+
+.home .home-slider .slide .content {
+  flex-direction: 1 1 45rem;
+}
+
+.home .home-slider .slide .image {
+  flex-direction: 1 1 45rem;
+}
+
+.home .home-slider .slide .image img {
+  width: 100%;
 }
 
 @media (max-width: 991px) {
