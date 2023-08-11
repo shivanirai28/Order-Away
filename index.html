@@ -4,6 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Food Website</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+
     <!-- font cdn link -->
     <link
       rel="stylesheet"
@@ -43,19 +48,14 @@
     </form>
 
     <section class="home" id="home">
-      <div class="home-slider">
-        <div class="wrapper">
-          <div class="slide">
+      <div class="swiper-container home-slider">
+        <div class="swiper-wrapper wrapper">
+          <div class="swiper-slide slide">
             <div class="content">
               <span>Our special dish</span>
               <h3>Spicy Noodles</h3>
-              <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Facilis temporibus vero amet voluptatem rem quas aliquid eos
-                cumque asperiores. Odit repellat corrupti quia sapiente
-                consequuntur voluptatum harum dolores porro maiores?
-              </p>
-              <a href="#" class="btn"></a>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing</p>
+              <a href="#" class="btn">Order Now</a>
             </div>
             <div class="image">
               <img
@@ -64,17 +64,12 @@
               />
             </div>
           </div>
-          <div class="slide">
+          <div class="swiper-slide slide">
             <div class="content">
               <span>Our special dish</span>
               <h3>Fried Chicken</h3>
-              <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Facilis temporibus vero amet voluptatem rem quas aliquid eos
-                cumque asperiores. Odit repellat corrupti quia sapiente
-                consequuntur voluptatum harum dolores porro maiores?
-              </p>
-              <a href="#" class="btn"></a>
+              <p>Lorem ipsum, dolor sit amet consectetur</p>
+              <a href="#" class="btn">Order Now</a>
             </div>
             <div class="image">
               <img
@@ -83,36 +78,26 @@
               />
             </div>
           </div>
-          <div class="slide">
+          <div class="swiper-slide slide">
             <div class="content">
               <span>Our special dish</span>
               <h3>Hot Pizza</h3>
-              <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Facilis temporibus vero amet voluptatem rem quas aliquid eos
-                cumque asperiores. Odit repellat corrupti quia sapiente
-                consequuntur voluptatum harum dolores porro maiores?
-              </p>
-              <a href="#" class="btn"></a>
+              <p>Lorem ipsum, dolor sit amet consectetur</p>
+              <a href="#" class="btn">Order Now</a>
             </div>
             <div class="image">
               <img
-                src="https://img.freepik.com/premium-photo/pizza-isolate-white-background-generative-ai_74760-2619.jpg?size=626&ext=jpg&uid=R111284781&ga=GA1.2.654699022.1690386085&semt=ais"
+                src="https://img.freepik.com/premium-photo/fresh-tasty-pizza-white-background_211889-151.jpg?size=626&ext=jpg&uid=R111284781&ga=GA1.2.654699022.1690386085&semt=ais"
                 alt=""
               />
             </div>
           </div>
-          <div class="slide">
+          <div class="swiper-slide slide">
             <div class="content">
               <span>Our special dish</span>
               <h3>Extra Cheesy Burger</h3>
-              <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Facilis temporibus vero amet voluptatem rem quas aliquid eos
-                cumque asperiores. Odit repellat corrupti quia sapiente
-                consequuntur voluptatum harum dolores porro maiores?
-              </p>
-              <a href="#" class="btn"></a>
+              <p>Lorem ipsum, dolor sit amet consectetur</p>
+              <a href="#" class="btn">Order Now</a>
             </div>
             <div class="image">
               <img
@@ -122,8 +107,11 @@
             </div>
           </div>
         </div>
+        <div class="swiper-pagination"></div>
       </div>
     </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
 
     <script src="js/script.js"></script>
   </body>

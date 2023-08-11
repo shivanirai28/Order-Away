@@ -33,6 +33,22 @@ section:nth-child(even) {
   background: #eee;
 }
 
+.btn {
+  margin-top: 1rem;
+  display: inline-block;
+  font-size: 1.7rem;
+  color: #fff;
+  background: var(--black);
+  border-radius: 0.5rem;
+  cursor: pointer;
+  padding: 0.8rem 3rem;
+}
+
+.btn:hover {
+  background: var(--green);
+  letter-spacing: 0.1rem;
+}
+
 header {
   position: fixed;
   top: 0;
@@ -159,15 +175,35 @@ header .icons #menu-bars {
 }
 
 .home .home-slider .slide .content {
-  flex-direction: 1 1 45rem;
+  flex: 1 1 45rem;
 }
 
 .home .home-slider .slide .image {
-  flex-direction: 1 1 45rem;
+  flex: 1 1 45rem;
 }
 
 .home .home-slider .slide .image img {
   width: 100%;
+}
+
+.home .home-slider .slide .content span {
+  color: var(--green);
+  font-size: 2.5rem;
+}
+
+.home .home-slider .slide .content h3 {
+  color: var(--black);
+  font-size: 7rem;
+}
+
+.home .home-slider .slide .content p {
+  color: var(--light-color);
+  font-size: 2.2rem;
+  padding: 0.5rem 0;
+  line-height: 1.5;
+}
+.swiper-pagination-bullet-active {
+  background: var(--green);
 }
 
 @media (max-width: 991px) {
@@ -176,6 +212,10 @@ header .icons #menu-bars {
   }
   header {
     padding: 1rem 2rem;
+  }
+
+  section {
+    padding: 2rem;
   }
 }
 @media (max-width: 768px) {
@@ -209,6 +249,10 @@ header .icons #menu-bars {
   #search-form #search-box {
     width: 90%;
     margin: 0 1rem;
+  }
+
+  .home .home-slider .slide .content h3 {
+    font-size: 5rem;
   }
 }
 
