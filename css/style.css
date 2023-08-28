@@ -250,10 +250,13 @@ header .icons #menu-bars {
   color: var(--black);
 }
 
-.dishes .box-container .box .fa-heart:hover,
+.dishes .box-container .box .fa-heart:hover {
+  background: var(--green);
+  color: red;
+}
 .dishes .box-container .box .fa-eye:hover {
   background: var(--green);
-  color: #eee;
+  color: black;
 }
 
 .dishes .box-container .box .fa-heart {
@@ -395,7 +398,7 @@ header .icons #menu-bars {
 
 .menu .box-container .box .image .fa-heart:hover {
   background-color: var(--green);
-  color: #fff;
+  color: red;
 }
 
 .menu .box-container .box .content {
@@ -558,29 +561,6 @@ header .icons #menu-bars {
 
 .footer .credit span {
   color: var(--green);
-}
-
-.loader-container {
-  position: fixed;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  z-index: 10000;
-  background: #fff;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  overflow: hidden;
-}
-
-.loader-container img {
-  width: 35rem;
-}
-
-.loader-container.fade-out {
-  top: 110;
-  opacity: 0;
 }
 
 @media (max-width: 991px) {
