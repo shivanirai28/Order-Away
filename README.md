@@ -13,7 +13,7 @@ CSS: Responsible for styling and layout of the website, making it visually appea
 JavaScript: Provides interactivity and dynamic functionality to the website.
 
 
-# This is what the wesite looks like:- 🎥🔍<br>
+# This is what the website looks like:- 🎥🔍<br>
 ![food 8](https://github.com/shivanirai28/Order-Away/assets/122675366/2b56c9ba-ed27-4a07-acc1-1d180e671091)
 ![food 7](https://github.com/shivanirai28/Order-Away/assets/122675366/005e741c-eb6a-44f5-b29b-ec9208573b6c)
 ![food 6](https://github.com/shivanirai28/Order-Away/assets/122675366/d354a939-da78-4283-abc0-53f90b8e0829)
