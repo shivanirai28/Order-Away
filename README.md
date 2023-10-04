@@ -16,6 +16,16 @@ JavaScript: Provides interactivity and dynamic functionality to the website.
 # This is what the wesite looks like:- 🎥🔍<br>
 ![food 8](https://github.com/shivanirai28/Order-Away/assets/122675366/2b56c9ba-ed27-4a07-acc1-1d180e671091)
 ![food 7](https://github.com/shivanirai28/Order-Away/assets/122675366/005e741c-eb6a-44f5-b29b-ec9208573b6c)
+![food 6](https://github.com/shivanirai28/Order-Away/assets/122675366/d354a939-da78-4283-abc0-53f90b8e0829)
+![food 5](https://github.com/shivanirai28/Order-Away/assets/122675366/ba39b792-6472-4a78-b348-c6c95ee2e7c0)
+![food 4](https://github.com/shivanirai28/Order-Away/assets/122675366/a3504e77-34e2-44ad-9b78-19088e7f53c4)
+![food 3](https://github.com/shivanirai28/Order-Away/assets/122675366/e20c6cfd-7cd1-4715-86b7-b2381441af19)
+![food 2](https://github.com/shivanirai28/Order-Away/assets/122675366/b3c5a116-9016-4fcb-94c1-f519021a023d)
+![food 1](https://github.com/shivanirai28/Order-Away/assets/122675366/cf5bac73-82c3-4103-977c-d7a57e177b16)
+
+
+
+
 
 
 
