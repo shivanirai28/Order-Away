@@ -6,7 +6,7 @@ Welcome to the Food Ordering website!
 
 # Technologies 📌📌
 
-## This Food Ordering website is developed using:
+This Food Ordering website is developed using:
 - HTML: Used for structuring the web pages and content.<br>
 - CSS: Responsible for styling and layout of the website, making it visually appealing.<br>
 - JavaScript: Provides interactivity and dynamic functionality to the website.
